@@ -1,0 +1,53 @@
+.options{
+    padding: 10px 20px;
+    background-color: antiquewhite;
+}
+.pitha{
+    width: 500px;
+    height: 200px;
+   
+}
+.pitha label{
+    display: block;
+    margin-bottom: 30px;
+}
+textarea{
+   width: 200px;
+}
+table{
+    
+    border-collapse: collapse;
+}
+
+th , td{
+    border: 1px solid black;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+nav > ul{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+   
+}
+nav li{
+    list-style: none;
+}
+nav li .dropdown{
+    display: none;
+}
+nav li:hover .dropdown{
+    display: block;
+    background-color: antiquewhite;
+    padding: 30px;
+    position: absolute;
+    
+}
+nav .dropdown li{
+    margin-bottom: 10px;
+}
